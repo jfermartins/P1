@@ -9,9 +9,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Index</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <%@include file="WEB-INF/jspf/header.jspf" %>
+        <h3>Jane Fernanda Martins</h3>
+        <h4>RA: 1290481812013 </h4>
+        <h5>Ingressei no 1º semestre de 2018.</h5>
+        <a href="www.github.com/jfermartins" target="blank">Jane Fernanda Martins</a>
     </body>
 </html>
